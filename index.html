@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Christal's Weather App</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-9">
+            <input
+              type="search"
+              placeholder="Enter a city"
+              class="form-control search-input"
+            />
+          </div>
+        </div>
+      </form>
+      <hr />
+
+      <div class="WeatherInfo">
+        <div class="row">
+          <div class="col-6">
+            <h1>Houston</h1>
+            <ul>
+              <li>Thursday 01:37, Sunny but cloudy</li>
+              <li>
+                Humidity: <strong>78%</strong> , Wind: <strong> 1 mph </strong>
+              </li>
+            </ul>
+            <span class="temperature">15</span><span class="unit">°C</span>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="WeatherForecast row">
+        <div class="col">
+          <div class="WeatherForecastPreview">
+            <div class="forecast-time">Sun</div>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">90</span>
+              <span class="forecast-temperature-min">72</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="WeatherForecast row">
+        <div class="col">
+          <div class="WeatherForecastPreview">
+            <div class="forecast-time">Mon</div>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">90</span>
+              <span class="forecast-temperature-min">72</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="WeatherForecast row">
+        <div class="col">
+          <div class="WeatherForecastPreview">
+            <div class="forecast-time">Tue</div>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">90</span>
+              <span class="forecast-temperature-min">72</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="WeatherForecast row">
+        <div class="col">
+          <div class="WeatherForecastPreview">
+            <div class="forecast-time">Wed</div>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">90</span>
+              <span class="forecast-temperature-min">72</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="WeatherForecast row">
+        <div class="col">
+          <div class="WeatherForecastPreview">
+            <div class="forecast-time">Thu</div>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">90</span>
+              <span class="forecast-temperature-min">72</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+    <footer>
+      This project was coded by Christal Crockett and is
+      <p><a href="">Open-source code</a> and hosted on Netlify</p>
+    </footer>
+  </body>
+</html>
